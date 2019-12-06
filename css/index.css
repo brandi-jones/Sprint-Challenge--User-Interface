@@ -262,3 +262,33 @@ header nav a{
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
 }
+
+
+
+
+/*animations*/
+
+.button:hover {
+    animation-name: animation-button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation-button {
+    from {background-color: white;}
+    to {background-color: #BBBBBB;}
+}
+
+header nav a:hover{
+    animation-name: animation-nav;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+@keyframes animation-nav {
+    from {background-color: white;}
+    to {background-color: #BBBBBB;}
+}
