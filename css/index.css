@@ -144,3 +144,104 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*My code starts here*/
+
+
+/*Header*/
+
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#homepage-img {
+    margin-bottom: 3%;
+}
+
+
+/*box colors*/
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+
+/*Start code specific for the about page*/
+
+.top-content-text {
+    border-bottom: 1px dashed black;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+.bottom-content-text {
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+
+/*main-content section divs*/
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.main-content div {
+    width: 50%;
+
+    border-bottom: 1px dashed black;
+    padding: 3% 2% 3% 2%;
+    
+}
