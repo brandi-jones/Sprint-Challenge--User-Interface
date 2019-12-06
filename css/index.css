@@ -292,3 +292,10 @@ header nav a:hover{
     from {background-color: white;}
     to {background-color: #BBBBBB;}
 }
+
+
+/*form for contact page*/
+
+form {
+    text-align: center;
+}
